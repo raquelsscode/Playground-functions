@@ -2,9 +2,9 @@
 function compareTrue(Value1, Value2) {
     // seu código aqui
     if (Value1 && Value2 === true) {
-        return 'true'
+        return true
     } else {
-        return 'false'
+        return false
     }
 }
 console.log(compareTrue(false, false));
@@ -18,9 +18,12 @@ function calcArea(base, height) {
 console.log(calcArea(51, 1));
 
 // Desafio 3
-function splitSentence() {
+function splitSentence(string) {
     // seu código aqui
+    let split = string.split(' ');
+    return split
 }
+console.log(splitSentence('foguete'))
 
 // Desafio 4
 function concatName() {
