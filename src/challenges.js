@@ -36,9 +36,14 @@ console.log(concatName(['captain', 'my', 'captain']))
 
 
 // Desafio 5
-function footballPoints() {
+function footballPoints(wins, ties) {
     // seu código aqui
+    let win = 3
+    let tie = 1
+    let points = (wins * win) + (ties * tie);
+    return points
 }
+console.log(footballPoints(0, 0));
 
 // Desafio 6
 function highestCount() {
@@ -69,16 +74,16 @@ function techList() {
     // seu código aqui
 }
 
-module.exports = {
-    calcArea,
-    catAndMouse,
-    compareTrue,
-    concatName,
-    decode,
-    encode,
-    fizzBuzz,
-    footballPoints,
-    highestCount,
-    splitSentence,
-    techList,
-};
+// module.exports = {
+//     calcArea,
+//     catAndMouse,
+//     compareTrue,
+//     concatName,
+//     decode,
+//     encode,
+//     fizzBuzz,
+//     footballPoints,
+//     highestCount,
+//     splitSentence,
+//     techList,
+// };
