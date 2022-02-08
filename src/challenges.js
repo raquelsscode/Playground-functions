@@ -1,29 +1,29 @@
-// // Desafio 1
-// function compareTrue(Value1, Value2) {
-//     // seu código aqui
-//     if (Value1 && Value2 === true) {
-//         return true
-//     } else {
-//         return false
-//     }
-// }
-// console.log(compareTrue(false, false));
+// Desafio 1
+function compareTrue(Value1, Value2) {
+    // seu código aqui
+    if (Value1 && Value2 === true) {
+        return true
+    } else {
+        return false
+    }
+}
+console.log(compareTrue(false, false));
 
-// // Desafio 2
-// function calcArea(base, height) {
-//     // seu código aqui
-//     let resultado = (base * height) / 2
-//     return resultado
-// }
-// console.log(calcArea(51, 1));
+// Desafio 2
+function calcArea(base, height) {
+    // seu código aqui
+    let resultado = (base * height) / 2
+    return resultado
+}
+console.log(calcArea(51, 1));
 
-// // Desafio 3
-// function splitSentence(string) {
-//     // seu código aqui
-//     let split = string.split(' ');
-//     return split
-// }
-// console.log(splitSentence('foguete'));
+// Desafio 3
+function splitSentence(string) {
+    // seu código aqui
+    let split = string.split(' ');
+    return split
+}
+console.log(splitSentence('foguete'));
 
 // Desafio 4
 function concatName(array) {
