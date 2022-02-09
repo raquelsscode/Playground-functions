@@ -102,13 +102,33 @@ function fizzBuzz(numeros) {
 console.log(fizzBuzz([9, 25]))
 
 // Desafio 9
-function encode() {
+function encode(text) {
     // seu código aqui
-}
+    for (let index = 0; index <= text.length - 1; index += 1) {
+        text = text.replace('a', 1);
+        text = text.replace('e', 2);
+        text = text.replace('i', 3);
+        text = text.replace('o', 4);
+        text = text.replace('u', 5);
+    }
 
-function decode() {
-    // seu código aqui
+    return text;
 }
+console.log(encode('go Trybe!'))
+
+function decode(textdecode) {
+    // seu código aqui
+    for (let index = 0; index <= textdecode.length - 1; index += 1) {
+        textdecode = textdecode.replace(1, 'a');
+        textdecode = textdecode.replace(2, 'e');
+        textdecode = textdecode.replace(3, 'i');
+        textdecode = textdecode.replace(4, 'o');
+        textdecode = textdecode.replace(5, 'u');
+    }
+
+    return textdecode;
+}
+console.log(decode('g4 Tryb2!'))
 
 // Desafio 10
 function techList() {
