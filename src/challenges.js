@@ -100,16 +100,16 @@ function techList() {
     // seu código aqui
 }
 
-// module.exports = {
-//     calcArea,
-//     catAndMouse,
-//     compareTrue,
-//     concatName,
-//     decode,
-//     encode,
-//     fizzBuzz,
-//     footballPoints,
-//     highestCount,
-//     splitSentence,
-//     techList,
-// };
+module.exports = {
+    calcArea,
+    catAndMouse,
+    compareTrue,
+    concatName,
+    decode,
+    encode,
+    fizzBuzz,
+    footballPoints,
+    highestCount,
+    splitSentence,
+    techList,
+};
