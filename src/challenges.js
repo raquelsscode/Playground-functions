@@ -131,9 +131,38 @@ function decode(textdecode) {
 console.log(decode('g4 Tryb2!'))
 
 // Desafio 10
-function techList() {
+function techList(tech, name) {
     // seu código aqui
+    let tecnologias = tech.sort()
+    if (tech.length === 0) {
+        return 'Vazio!'
+    } else
+        return obj = [{
+                tech: tecnologias[0],
+                name: name
+            },
+            {
+                tech: tecnologias[1],
+                name: name
+            },
+            {
+                tech: tecnologias[2],
+                name: name
+            },
+            {
+                tech: tecnologias[3],
+                name: name
+            },
+            {
+                tech: tecnologias[4],
+                name: name
+            },
+        ];
 }
+
+console.log(techList([], 'Lucas'));
+
+
 
 module.exports = {
     calcArea,
